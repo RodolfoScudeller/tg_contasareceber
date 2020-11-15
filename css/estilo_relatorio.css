@@ -1,0 +1,94 @@
+.img-logo {
+    width: 155px;
+    height: 50px;
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+.espaco-logo {
+    width: 180px;
+    height: 80px;
+    display: inline;
+    float: left;
+}
+.cabecalho {
+    border: solid 1px black;
+    height: 80px;
+    width: 1020px;
+    position: relative;
+}
+.titulo {
+    display: inline;
+    float: left;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-left: 20px
+}
+.data {
+    width: 400px;
+    height: 80px;
+    display: inline;
+    float: right;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 5px;
+}
+.espaco-tabela {
+    height: 530px;
+}
+.rodape {
+    height: 65px;
+    width: 1020px;
+    border: solid 1px black;
+}
+.tabela {
+    width: 1020px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    border-collapse: collapse;
+    border: black 1px solid;    
+}
+.campos {    
+    border: solid 1px black;
+}
+.usuario {
+    border-right: 1px solid black;
+    height: 65px;
+    width: 600px;
+    float: left;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.dados-rodape {
+    height: 65px;
+    width: 400px;
+    float: right;    
+    line-height: 30px;
+}
+.conta-cliente{
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+.relat-cliente {
+    width: 1020px;
+    
+}
+.body-cliente {
+    
+}
+p {
+    width: 1018px;
+    margin: 0px;
+    float: left;
+    display: inline;
+}
+.p-nf {
+    float: left;
+    display: inline;
+}

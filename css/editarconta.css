@@ -1,0 +1,56 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(214, 214, 214);
+}
+.excluir{
+    background-image: url(../img/excluir-preto.png);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position-y: 3px;
+}
+.excluir:hover{
+    background-image: url(../img/excluir-branco.png);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position-y: 3px;
+}
+.salvar {
+    padding: 5px;
+    background-color: #9e9e9e;
+    border: none;
+    padding-left: 20px;
+    background-image: url(../img/ok-preto.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;    
+    margin-left: 10px;
+}
+.salvar:hover{
+    background-color: #6e6e6e;
+    background-image: url(../img/ok-branco.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;
+}
+.cancelar {
+    padding: 5px;
+    background-color: #9e9e9e;
+    border: none;
+    padding-left: 20px;
+    background-image: url(../img/cancelar-preto.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;    
+    margin-left: 10px;
+}
+.cancelar:hover{
+    background-color: #6e6e6e;
+    background-image: url(../img/cancelar-branco.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;
+}

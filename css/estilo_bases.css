@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    font-weight: lighter;
+    width: 500px;
+    margin: 10px auto;
+}
+.add-rem{
+    width: 100px;
+    float: right;
+    display: inline;
+    margin-top: -35px;
+    margin-right: 10px;
+}
+.btn_adrem{
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient(260deg, rgba(0,176,192,1) 0%, rgba(0,167,168,1) 100%);
+    border: none;
+    cursor: pointer;
+}
+.btn_adrem:hover{
+    background-image: linear-gradient(260deg, rgb(1, 131, 143) 0%, rgb(0, 134, 134) 100%);
+}
+.tabela{
+    margin: 15px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.img-ord{
+    width: 20px;
+    margin-top: 2px;
+    transform: translateY(10%);
+    float: right;
+    margin-left: 2px;
+}
+th, td{
+    letter-spacing: 1px;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    text-align: center;
+}
+thead{
+    position: sticky;
+    top:0;
+    color: azure;
+    background-image: linear-gradient(5deg,rgba(0,86,110,1) 25%, rgba(0,121,154,1) 49%, rgba(0,176,192,1)  100%);
+}
+tr{
+    border:rgb(175, 175, 175) solid 1px;
+}
+.btn_renegociar{
+    background-color: rgb(0,150,174);
+    border: none;
+    padding: 3px 7px;
+    padding-left: 30px;    
+    letter-spacing: 2px;
+    background-image: url(../img/rene-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;    
+    cursor: pointer;
+}
+.btn_renegociar:hover{
+    background-color:  #00b0c0;
+    background-image: url(../img/rene-branco.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;
+    color: aliceblue;
+}
+
+.container-tabela {
+    margin-top: 30px;
+    height: 550px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 5px;
+}
+.valor{
+    text-align: right;
+}
+table{
+    padding-top: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.btn_info{
+    background-color: rgb(0,150,174);
+    border: none;
+    padding: 3px 7px;
+    padding-left: 30px;    
+    letter-spacing: 2px;
+    background-image: url(../img/info-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;
+    cursor: pointer;
+}
+.btn_info:hover{
+    background-color:  #00b0c0;
+    background-image: url(../img/info-branca.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;
+}
+.btn_addconta{
+    background-color: rgb(0,150,174);
+    border: none;
+    padding: 3px 7px;
+    padding-left: 30px;    
+    letter-spacing: 2px;
+    background-image: url(../img/adicionar-conta-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;
+    cursor: pointer;
+}
+.btn_addconta:hover{
+    background-color:  #00b0c0;
+    background-image: url(../img/adicionar-conta-branco.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;
+}
+.download{
+    background-color: rgb(0,150,174);
+    border: none;
+    padding: 3px 7px;
+    padding-left: 30px;    
+    letter-spacing: 2px;
+    background-image: url(../img/baixar-branco.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;
+    cursor: pointer;
+}
+.download:hover{
+    background-color:  #00b0c0;
+    background-image: url(../img/baixar-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;
+}
+a {
+    text-decoration: none;
+}
+.vermelho {
+    color: red;
+}
+.verde{
+    color: green;
+}
+.amarelo{
+    color: orange;
+}
+.azul {
+    color: blue;
+}
+.addremessa{
+    background-color: rgb(0,150,174);
+    border: none;
+    padding: 3px 7px;
+    padding-left: 30px;    
+    letter-spacing: 2px;
+    background-image: url(../img/rem-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;
+    cursor: pointer;
+}
+.addremessa:hover{
+    background-color:  #00b0c0;
+    background-image: url(../img/rem-branco.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 2px;
+    background-position-y: 1px;
+}

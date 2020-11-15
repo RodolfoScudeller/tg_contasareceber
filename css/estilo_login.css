@@ -1,0 +1,74 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-width: 500px;
+    min-height: 500px;
+}  
+* {
+    box-sizing: border-box;
+}
+.bg-image{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/background-login.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+}
+.campos-login {
+    border: 3px solid #919090;
+    background: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 20px 20px 20px black;
+}
+.container-campos {
+    margin-top: 5%;
+}
+.login, .senha, .submit{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.login, .senha {
+    background-color: #cccccc;
+    color: rgb(0, 0, 0);
+    border: solid 1px black;
+    padding-left: 25px;
+    height: 26px;
+}
+.submit {
+    height: 26px;
+    width: 170px;
+    background-color: #cccccc;
+    border: solid 1px black;
+}
+.submit:hover {
+    background-color: #a5a2a2;
+}
+input.login {
+    background-image: url(../img/login.png);
+    background-repeat: no-repeat;
+}
+input.senha {
+    background-image: url(../img/senha.png);
+    background-repeat: no-repeat;
+}
+p {
+    background-image: url(../img/policia.png);
+    background-size: cover;
+    height: 30px;
+    padding-top: 5px;
+    color:red;
+}

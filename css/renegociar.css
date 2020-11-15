@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 520px;
+    max-height: 200px;
+    background-image: linear-gradient(5deg,rgba(0,86,110,0.5) 25%, rgba(0,121,154,0.5) 49%, rgba(0,176,192,0.51)  100%);
+    background-repeat: no-repeat;
+}
+.container-renegociacao{
+    width: 700px;
+    height: 140px;
+    padding: 10px;
+}
+.texto{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.nf{
+    margin-right: 10px;
+}
+.botao {
+    width: 300px;
+    margin: 20px auto 0;
+}
+.btn-ren, .btn-cancelar, .btn-excluir{
+    padding: 5px 5px 5px 20px;
+    text-transform: uppercase;
+    border: none;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+.btn-ren{
+    background-color: #007580;
+    background-image: url(../img/ok-preto.png);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position-y: 3px;
+}
+.btn-ren:hover{
+    background-color:  rgb(0,150,174);
+    background-image: url(../img/ok-branco.png);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position-y: 3px;
+    color: aliceblue;
+}
+.btn-cancelar{
+    background-color: orangered;
+    background-image: url(../img/cancelar-preto.png);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position-y: 3px;
+}
+.btn-cancelar:hover{
+    background-color: rgb(211, 58, 3);
+    background-image: url(../img/cancelar-branco.png);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position-y: 3px;
+    color: aliceblue;
+}
+.btn-excluir{
+    background-color: red;
+    background-image: url(../img/excluir-preto.png);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position-y: 3px;
+}
+.btn-excluir:hover{
+    background-color: rgb(207, 0, 0);
+    background-image: url(../img/excluir-branco.png);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position-y: 3px;
+    color: aliceblue;
+}
+.txt-data {
+    font-family: sans-serif;
+    font-size: 12px;
+}

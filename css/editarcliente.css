@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(5deg,rgba(0,86,110,0.5) 25%, rgba(0,121,154,0.5) 49%, rgba(0,176,192,0.51)  100%);
+    background-repeat: no-repeat;
+}
+.nome-empresa{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.linha{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+    margin-bottom: 10px;
+}
+.texto-email, .texto-nome {
+    width: 250px;
+    margin-bottom: 7px;
+}
+.texto{
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.container-info{
+    max-width: 1100px;
+    min-width: 1100px;
+    height: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+.texto-contas{
+    width: 400px;
+    align-items: center;
+}
+.add-conta {
+    background-color:orange;
+    padding: 2px 2px;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    background-image: url(../img/carteira-preta.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.add-conta:hover{
+    background-color:rgb(190, 124, 1);
+    background-image: url(../img/carteira-branca.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;
+}
+.salvar {
+    padding: 5px;
+    background-color: #06b400;
+    border: none;
+    padding-left: 20px;
+    background-image: url(../img/salvar-preto.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;    
+    margin-left: 10px;
+    cursor: pointer;
+}
+.salvar:hover{
+    background-color: #00cc1b;
+    background-image: url(../img/salvar-branco.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;
+    color: aliceblue;
+}
+.cancelar {
+    padding: 5px;
+    background-color: orangered;
+    border: none;
+    padding-left: 20px;
+    background-image: url(../img/cancelar-preto.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;    
+    margin-left: 10px;
+    cursor: pointer;
+}
+.cancelar:hover{
+    background-color: rgb(211, 58, 3);
+    background-image: url(../img/cancelar-branco.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;
+    color: aliceblue;
+}
+.excluir{
+    padding: 5px;
+    background-color: red;
+    border: none;
+    padding-left: 20px;
+    background-image: url(../img/excluir-preto.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;    
+    margin-left: 10px;
+    cursor: pointer;
+}
+.excluir:hover{
+    background-color: rgb(207, 0, 0);
+    background-image: url(../img/excluir-branco.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;
+    color: aliceblue;
+}

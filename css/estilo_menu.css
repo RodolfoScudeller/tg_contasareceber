@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+}
+html{
+    height: 100%;
+}
+.cabecalho {
+    background: rgb(0,36,46);
+    background: linear-gradient(90deg, rgba(0,36,46,1) 24%, rgba(0,121,154,1) 50%, rgba(0,176,192,1) 100%);
+    height: 40px;   
+    position: relative;
+    letter-spacing: 3px;    
+}
+.logout {
+    float: right;
+    height: 70%;
+    width: 40px;
+    margin-right: 5px;
+    margin-top: 6px;
+    width: 30px;
+    
+}
+.logo{
+    margin-top:0px;
+    width: 40px;
+    padding-top: 0;
+    display: block;
+    float: left;
+}
+.user {
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    width: 700px;
+    margin: 0 auto;  
+}
+.navegacao {
+    background: rgb(0,176,192);
+    background: linear-gradient(5deg, rgba(0,176,192,1) 25%, rgba(0,121,154,1) 49%, rgba(0,36,46,1) 100%);
+    height: 94%;
+    width: 40px;
+    transition: width .3s;
+    z-index: 1;
+    position: absolute;
+}
+.navegacao:hover{
+    width: 200px;
+    transition: width 0.3s;
+}
+.img-menu {
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+    display: inline;
+    position: absolute;  
+    margin: 0 auto;      
+}
+.itens-menu {   
+   width: 50px; 
+   height: 30px;
+   display: inline;
+   color: white;
+   text-transform: uppercase;
+   position: relative;
+   top:30px;
+   display: none;
+   
+}
+.itens-menu a {
+    text-decoration: none;
+}
+.empresa {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,255,64,1)), to(rgba(0,172,255,1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    margin: 10px;
+    height: 20px;
+    position: absolute;
+    font-weight: bolder;
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+.container{
+    width: 96.9%;
+    height: 93.5%;
+    position: relative;
+    float: right;
+    background-image: linear-gradient(138deg, rgba(199,249,255,1) 0%, rgba(230,255,223,1) 100%);
+}
+.itens-cabecalho {
+    width: 1300px;
+    margin: 0 auto;
+}
+#icone {
+    cursor: pointer;
+    padding:15px;
+    position: absolute;
+    z-index: 1;
+}
+.home, .cadastro, .base, .arquivo, .relatorio, .notificar, .historico {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all .2s linear;
+    width: 170px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin:0;
+    line-height: 20px;    
+    letter-spacing: 3px;
+    
+}
+.home:hover, .cadastro:hover, .base:hover, .arquivo:hover, .relatorio:hover, .notificar:hover, .historico:hover  {
+    /*background: rgb(85, 84, 84);*/
+    color: black;
+}
+.navegacao:hover .itens-menu{
+    display: inline;
+}
+.home {
+    background-image: url(../img/home-branca.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;    
+}
+.home:hover {
+    background-image: url(../img/home-preta.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.cadastro {
+    background-image: url(../img/cadastrar-branco.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;    
+}
+.cadastro:hover {
+    background-image: url(../img/cadastrar-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}.base {
+    background-image: url(../img/tabela-branca.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.base:hover{
+    background-image: url(../img/tabela-preta.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.arquivo {
+    background-image: url(../img/arquivo-branco.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.arquivo:hover{
+    background-image: url(../img/arquivo-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.relatorio {
+    background-image: url(../img/grafico-branco.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.relatorio:hover{
+    background-image: url(../img/grafico-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.notificar {
+    background-image: url(../img/notificar-branco.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.notificar:hover{
+    background-image: url(../img/notificar-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.historico {
+    background-image: url(../img/historico-branco.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.historico:hover{
+    background-image: url(../img/historico-preto.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+.opc-cadastro, .opc-base, .opc-relatorio, .opc-excel, .opc-pdf, .opc-arquivo{
+    display: none;
+    color: white;
+}
+.cadastro:hover .opc-cadastro {
+    display: block;
+    margin-left: -20px;
+    padding-top: 0px;
+    align-items: center;
+    line-height: 30px;
+}
+.cadastro:hover{
+    height: auto;  
+}
+.base:hover .opc-base {
+    display: block;
+    margin-left: -20px;
+    padding-top: 0px;
+    align-items: center;
+    line-height: 30px;
+}
+.base:hover{
+    height: auto;   
+}
+.arquivo:hover .opc-arquivo {
+    display: block;
+    margin-left: -20px;
+    padding-top: 0px;
+    align-items: center;
+    line-height: 30px;
+}
+
+.arquivo:hover{
+    height: auto;   
+}
+.relatorio:hover .opc-relatorio{
+    display: block;
+    margin-left: -20px;   
+    height: auto;
+    padding-top: 0px;
+    align-items: center;
+    line-height: 30px;
+} 
+.relatorio:hover{
+    height: auto;    
+}
+ul{
+   color: white;
+   list-style: none;
+}
+a {
+    color: white;
+    margin-top: 20px;
+}
+a:hover{
+    color: black;
+}
+li{
+    margin-top: 3px;
+}
+.cad-conta {
+    height: 30px;
+    margin-left: 0;   
+}
+.cad-conta:hover, .cad-cliente:hover, .cad-usuario:hover, .base-cliente:hover, .base-usuario:hover, .base-conta:hover, .arquivo-remessa:hover, .arquivo-retorno:hover, .pdf:hover, .excel:hover {
+    /*background: rgb(126, 126, 126);*/
+}
+.link-adconta{
+    padding: 10px;
+    background-image: url(../img/adicionar-conta-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-adconta:hover{
+    background-image: url(../img/adicionar-conta-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-adcliente{
+    padding: 10px;
+    background-image: url(../img/adicionar-cliente-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-adcliente:hover{
+    background-image: url(../img/adicionar-cliente-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-adusuario{
+    padding: 10px;
+    background-image: url(../img/adicionar-usuario-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-adusuario:hover{
+    background-image: url(../img/adicionar-usuario-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-baseconta{
+    padding: 10px;
+    background-image: url(../img/conta-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-baseconta:hover{
+    background-image: url(../img/conta-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-basecliente{
+    padding: 10px;
+    background-image: url(../img/cliente-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-basecliente:hover{
+    background-image: url(../img/cliente-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-baseusuario{
+    padding: 10px;
+    background-image: url(../img/usuario-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-baseusuario:hover{
+    background-image: url(../img/usuario-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-remessa{
+    padding: 10px;
+    background-image: url(../img/upload-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-remessa:hover{
+    background-image: url(../img/upload-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-retorno{
+    padding: 10px;
+    background-image: url(../img/download-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-retorno:hover{
+    background-image: url(../img/download-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 5px;
+}
+.link-pdf{
+    background-image: url(../img/pdf-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 35px;
+    background-position-y: 4px;
+    background-position-x: 5px;
+    margin: 0 auto;
+    padding-right: 114px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.link-pdf:hover{
+    background-image: url(../img/pdf-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+    background-position-x: 5px;
+}
+.link-excel{
+    padding: 10px;
+    background-image: url(../img/excel-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 4px;
+    background-position-x: 5px;
+    padding-right: 88px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.link-excel:hover{
+    background-image: url(../img/excel-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+    background-position-x: 5px;
+}
+
+.e-geral, .e-situacao, .e-cliente, .p-geral, .p-situacao, .p-cliente{
+    
+    background-image: url(../img/relatorio-branco.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position-y: 4px;
+    background-position-x: 5px;
+    padding-right: 88px;
+    margin-left: 20px;
+    display: none;
+}
+.e-geral:hover, .e-situacao:hover, .e-cliente:hover, .p-geral:hover, .p-situacao:hover, .p-cliente:hover{
+    background-image: url(../img/relatorio-preto.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+    background-position-x: 5px;
+    /*background-color: lightgray;*/
+}
+.pdf, .excel{
+    margin-left: 20px;
+}
+.pdf:hover .p-geral, .pdf:hover .p-situacao, .pdf:hover .p-cliente, .excel:hover .e-geral, .excel:hover .e-situacao, .excel:hover .e-cliente{
+    display: block;
+}
