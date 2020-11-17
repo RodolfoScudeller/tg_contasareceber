@@ -117,9 +117,9 @@
                             while($row_query = mysqli_fetch_assoc($consulta)){
                                 $nf = $row_query['CO_IDCONTA'];
                                 $datae = $row_query['CO_DATAEMISSAO'];
-                                $datae = (string)substr($datae,8,2) .'/'. (string)substr($datae,5,2) .'/'. (string)substr($datae,0,4);
+                                //$datae = (string)substr($datae,8,2) .'-'. (string)substr($datae,5,2) .'-'. (string)substr($datae,0,4);
                                 $datav = $row_query['CO_DATAVENCIMENTO'];
-                                $datav = (string)substr($datav,8,2) .'/'. (string)substr($datav,5,2) .'/'. (string)substr($datav,0,4);
+                                //$datav = (string)substr($datav,8,2) .'-'. (string)substr($datav,5,2) .'-'. (string)substr($datav,0,4);
                                 $valor = $row_query['CO_VALOR'];
                                 $valor = number_format($valor,2, ',','.');
                                 $agencia = $row_query['CO_AGENCIA'];

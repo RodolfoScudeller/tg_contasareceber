@@ -66,12 +66,12 @@ $arquivo->insertDetalhe(array(
     'data_vencimento'   => $datav,
     'data_cadastro'     => $datae,
     'juros_de_um_dia'     => 0.10, // Valor do juros de 1 dia'
-    'data_desconto'       => new DateTime('000-00-00'),
+    'data_desconto'       => new DateTime(),
     'valor_desconto'      => 10.0, // Valor do desconto
     'prazo'               => 10, // prazo de dias para o cliente pagar após o vencimento
     'taxa_de_permanencia' => '0', //00 = Acata Comissão por Dia (recomendável), 51 Acata Condições de Cadastramento na CAIXA
     'mensagem'            => ' ',
-    'data_multa'          => new DateTime('000-00-00'), // data da multa
+    'data_multa'          => new DateTime(), // data da multa
     'valor_multa'         => 10.0, // valor da multa
 ));
 $usuario = $_SESSION['nome'];
