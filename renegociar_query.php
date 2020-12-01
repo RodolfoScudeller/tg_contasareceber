@@ -9,6 +9,7 @@
     $nf = $_GET['nf'];
     $datav = $_GET['data'];
     $valor = $_GET['valor'];
+    $valor = number_format($valor,2, '.','');
     $conta = $_GET['conta'];
     $agencia = $_GET['agencia'];
     $situacao = $_GET['situacao'];
@@ -32,7 +33,7 @@
                 $pontuacao = $linhas_pontuacao['cl_pontuacao'];
             }
             if(($pontuacao >= 0) && ($pontuacao <= 1000)){
-                if((($pontuacao + $dias) >= 0 ) && (($pontuacao + $dias) <= 1000 )){
+                if((($pontuacao - 500) >= 0 ) && (($pontuacao - 500) <= 1000 )){
                     $update_pont = "update tb_cliente set cl_pontuacao = cl_pontuacao - 500 where cl_cnpj = '$cliente'";
                     if($con->query($update_pont)){
                     
@@ -40,18 +41,19 @@
                 }
             }
         
-        
+        }
             echo("<script>
                     alert('Conta Renegociada com Sucesso!');
                     window.close();
                 </script>");
+        
     }else{
         echo ("<script>
             alert('Falha ao Renegociar Conta');
             window.close();
         </script>");
     }
-}
+
     
     
 ?>

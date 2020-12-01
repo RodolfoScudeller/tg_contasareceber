@@ -57,7 +57,7 @@
                             }
                         }
                         $att_escrita = "update tb_contaareceber set co_situacao = 'Atrasada' where co_datavencimento < '$data_hoje' and co_situacao = 'Em Aberto'";
-                        echo($att_escrita);
+                        
                         $con->query($att_escrita);
                         
                     }

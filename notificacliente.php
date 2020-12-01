@@ -51,12 +51,13 @@
             // Content
             $mail->isHTML(true);                                  // Set email format to HTML
             $mail->Subject = 'Notificação de Conta em Atraso';
-            $mail->Body    = "Sr(a). $responsavel da Empresa $nome, consta em nosso sistema que a conta com nota fiscal $nf no valor de R$ $valor venceu dia $datav. 
+            $mail->Body    = "
+            Sr(a). $responsavel da Empresa $nome, consta em nosso sistema que a conta com nota fiscal $nf no valor de R$ $valor venceu dia $datav. 
 
-            Por favor, entre em contato conosco para saldar sua dívida.
+            <br>Por favor, entre em contato conosco para saldar sua dívida.<br><br>
     
-            Atenciosamente,
-            $usuario
+            Atenciosamente,<br>
+            $usuario<br>
             Nacon Engenharia";
             $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
